@@ -30,8 +30,8 @@
   }
 
   .section5 {
-    right: 20rem;
-    top: 285rem;
+    right: 25rem;
+    top: 280rem;
   }
 }
 
@@ -89,10 +89,11 @@
   }
   footer .bottom {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
+
   footer {
-    height: 80rem;
+    height: 100rem;
     margin-bottom: 0;
   }
 }
@@ -127,9 +128,13 @@
 @media (max-width: 34em) {
   .inside {
     width: 55rem;
+    padding: 2rem 2rem;
   }
   .section5 {
     width: 40rem;
     height: 20rem;
+  }
+
+  footer {
   }
 }
