@@ -1,0 +1,135 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+/**************************/
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .container {
+    height: 100rem;
+  }
+
+  .inside {
+    width: 90rem;
+  }
+  .text1 {
+    text-align: center;
+    margin-right: 0rem;
+  }
+
+  .img1-div {
+    width: 50rem;
+    height: 20rem;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section5 {
+    right: 20rem;
+    top: 285rem;
+  }
+}
+
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  :root {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .section5 {
+    right: 15rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  :root {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 53em) {
+  .inside {
+    width: 85rem;
+  }
+  .text1 {
+    margin-right: 0rem;
+  }
+
+  .section2,
+  .section3,
+  .section4 {
+    height: 40rem;
+    align-items: center;
+    margin: 2rem 2rem;
+  }
+
+  header {
+    margin: 0 2rem;
+  }
+
+  .section5 {
+    width: 50rem;
+    height: 20rem;
+    right: 8rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+  footer .bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    height: 80rem;
+    margin-bottom: 0;
+  }
+}
+
+/**************************/
+/* BELOW 850px (Smaller tablets) */
+/**************************/
+@media (max-width: 53em) {
+  .section5 {
+    right: 20rem;
+  }
+
+  .inside {
+    width: 70rem;
+  }
+}
+
+/**************************/
+/* BELOW 660px*/
+/**************************/
+
+@media (max-width: 41em) {
+  .section5 {
+    right: 9rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .inside {
+    width: 55rem;
+  }
+  .section5 {
+    width: 40rem;
+    height: 20rem;
+  }
+}
