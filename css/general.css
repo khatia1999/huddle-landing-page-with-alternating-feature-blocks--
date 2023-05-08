@@ -1,0 +1,42 @@
+/* variables */
+:root {
+  /* color palette */
+  --Pink: hsl(322, 100%, 66%);
+  --PinkShadow: rgba(255, 82, 193, 50%);
+  --PinkShadowHover: rgba(255, 82, 193, 30%);
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
+  /* root font size: 1rem = 10px */
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.inside {
+  width: 140rem;
+  padding: 2rem 2rem;
+}
+
+.container {
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80rem;
+  background-color: var(--VeryPaleCyan);
+  display: flex;
+  justify-content: center;
+}
