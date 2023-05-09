@@ -6,45 +6,45 @@
 /**************************/
 
 @media (max-width: 84em) {
-  .container {
-    height: 100rem;
-  }
-
-  .inside {
-    width: 90rem;
-  }
-  .text1 {
-    text-align: center;
-    margin-right: 0rem;
-  }
-
-  .img1-div {
-    width: 50rem;
-    height: 20rem;
-  }
-
-  .section1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .inside,
+  .sections {
+    width: 110rem;
+    padding: 2rem 3rem;
   }
 
   .section5 {
-    right: 25rem;
-    top: 280rem;
+    top: 270rem;
+    right: 20rem;
   }
 }
 
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
 @media (max-width: 75em) {
-  :root {
+  html {
     /* 9px / 16px  */
     font-size: 56.25%;
   }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .img1-div {
+    width: 50rem;
+    height: 30rem;
+  }
+
+  .inside,
+  .sections {
+    width: 100rem;
+    padding: 2rem 3rem;
+  }
 
   .section5 {
-    right: 15rem;
+    top: 295rem;
+    right: 17rem;
   }
 }
 
@@ -53,48 +53,9 @@
 /**************************/
 
 @media (max-width: 59em) {
-  :root {
+  html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
-  }
-}
-
-@media (max-width: 53em) {
-  .inside {
-    width: 85rem;
-  }
-  .text1 {
-    margin-right: 0rem;
-  }
-
-  .section2,
-  .section3,
-  .section4 {
-    height: 40rem;
-    align-items: center;
-    margin: 2rem 2rem;
-  }
-
-  header {
-    margin: 0 2rem;
-  }
-
-  .section5 {
-    width: 50rem;
-    height: 20rem;
-    right: 8rem;
-  }
-  h3 {
-    font-size: 2.3rem;
-  }
-  footer .bottom {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer {
-    height: 100rem;
-    margin-bottom: 0;
   }
 }
 
@@ -102,12 +63,19 @@
 /* BELOW 850px (Smaller tablets) */
 /**************************/
 @media (max-width: 53em) {
+  .inside,
+  .sections {
+    width: 77rem;
+    padding: 2rem 3rem;
+  }
   .section5 {
+    width: 55rem;
+    height: 30rem;
+
     right: 20rem;
   }
-
-  .inside {
-    width: 70rem;
+  h3 {
+    font-size: 2.5rem;
   }
 }
 
@@ -116,8 +84,25 @@
 /**************************/
 
 @media (max-width: 41em) {
+  .inside,
+  .sections {
+    width: 60rem;
+    padding: 2rem 3rem;
+  }
+
+  footer .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    height: 75rem;
+    justify-content: center;
+  }
+
   .section5 {
-    right: 9rem;
+    width: 45rem;
+    height: 30rem;
+    right: 15rem;
   }
 }
 
@@ -126,15 +111,9 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .inside {
-    width: 55rem;
-    padding: 2rem 2rem;
-  }
-  .section5 {
-    width: 40rem;
-    height: 20rem;
-  }
-
-  footer {
+  .inside,
+  .sections {
+    width: 50rem;
+    padding: 2rem 3rem;
   }
 }

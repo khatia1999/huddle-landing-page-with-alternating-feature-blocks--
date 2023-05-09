@@ -2,7 +2,7 @@ footer {
   max-width: 100%;
   height: 30rem;
   background-color: var(--VeryDarkCyan);
-  margin-top: 200rem;
+
   padding: 20rem 12rem;
   position: relative;
 }
@@ -100,4 +100,8 @@ footer .socials .icon i {
 .text-l {
   color: white;
   font-size: 2rem;
+}
+
+.footer-logo {
+  margin-bottom: 2rem;
 }

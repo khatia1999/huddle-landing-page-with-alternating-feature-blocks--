@@ -2,6 +2,7 @@ header ul {
   display: flex;
   justify-content: space-between;
   margin-top: 7rem;
+  margin-bottom: 10rem;
 }
 
 .header-logo {
@@ -9,10 +10,11 @@ header ul {
   height: 3.5rem;
 }
 
-.btn {
+.btn_header {
   padding: 1.5rem 7rem;
   border-radius: 3rem;
   font-size: 1.5rem;
+  letter-spacing: 1px;
   font-weight: bolder;
   text-align: center;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 7%);
